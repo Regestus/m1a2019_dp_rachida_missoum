@@ -1,0 +1,3 @@
+Question 2 : Quel design pattern est le plus adapté à une extension du modèle présenté ,
+Réponse : Comme il est dit dans l'énoncé que les taches à réaliser dépendent du visiteur. Le visiteur peut donc définir sa procédure de parcours comme il le souhaite.
+Il est donc préférable d'utiliser une classe externe puisqu'on connait le parcours dans la méthode accept, on peut donc parcourir l'arbre de plusieurs façons différentes.
